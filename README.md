@@ -11,7 +11,10 @@ To install the theme, place the "gdm" folder in the GRUB themes folder, usually 
     sudo cp -r GrubThemeGdm/gdm /boot/grub/themes/
 
 **Activating the Theme:**
-To use the theme, set the `GRUB_THEME` line in the GRUB config file, usually located at `/etc/default/grub`, e.g.: `GRUB_THEME=/boot/grub/theme/gdm/theme.txt`. Then regenerate the grub config file: `sudo grub-mkconfig -o /boot/grub/grub.cfg`.
+To use the theme, set the `GRUB_THEME` line in the GRUB config file, 
+usually located at `/etc/default/grub`, e.g.: 
+`GRUB_THEME=/boot/grub/theme/gdm/theme.txt`. Then regenerate the GRUB 
+config file: `sudo grub-mkconfig -o /boot/grub/grub.cfg`.
 
 **Low Resolution Fix:**
 If GRUB defaults to a very low resolution you can try forcing a higher resolution for a better apperance, and to fit more entries on the screen without having to scroll.
