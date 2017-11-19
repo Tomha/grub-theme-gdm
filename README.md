@@ -1,6 +1,6 @@
 # About
 
-GDM is a theme for the GRUB bootloader aiming to immitate the default appearance of the Gnome Dispaly Manager user login page.
+GDM is a theme for the GRUB bootloader aiming to immitate the default appearance of the Gnome Display Manager user login page.
 
 ![Preview](preview/Preview.png)
 
